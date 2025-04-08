@@ -1,0 +1,98 @@
+/* Reset một số thuộc tính mặc định */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cài đặt font mặc định cho toàn bộ trang */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Thiết kế cho phần header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+/* Thiết kế cho phần main */
+main {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Thiết kế cho nút button */
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Thiết kế cho phần hướng dẫn */
+#instructions {
+    margin-top: 40px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#instructions h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#instructions h3 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    color: #444;
+}
+
+#instructions ul {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+#instructions ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+code {
+    background-color: #f1f1f1;
+    padding: 2px 5px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1rem;
+    border-radius: 3px;
+}
