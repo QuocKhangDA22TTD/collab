@@ -79,20 +79,61 @@ button:hover {
     color: #444;
 }
 
+/* Căn chỉnh và kiểu danh sách */
 #instructions ul {
     list-style-type: none;
-    margin-left: 20px;
+    padding-left: 20px;
 }
 
 #instructions ul li {
+    background-color: #fafafa;
+    padding: 10px;
+    margin: 10px 0;
+    border-left: 5px solid #4CAF50;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     font-size: 1.1rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hiệu ứng hover cho các mục trong danh sách */
+#instructions ul li:hover {
+    transform: translateX(10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Các nhiệm vụ có tên bước cụ thể */
+#instructions ul li h4 {
+    font-weight: bold;
+    color: #333;
     margin-bottom: 10px;
 }
 
-code {
-    background-color: #f1f1f1;
-    padding: 2px 5px;
-    font-family: "Courier New", Courier, monospace;
-    font-size: 1rem;
-    border-radius: 3px;
+/* Thiết kế ảnh trong phần hướng dẫn */
+#instructions img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+#instructions img:hover {
+    transform: scale(1.05);
+}
+
+/* Căn chỉnh ảnh và nhiệm vụ */
+#instructions ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#instructions ul li {
+    flex: 1;
+    margin: 10px;
+    text-align: center;
 }
