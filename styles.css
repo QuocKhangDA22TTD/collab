@@ -10,7 +10,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
-    color: #333;
+    color: #c207c2;
     padding: 20px;
 }
 
@@ -136,4 +136,27 @@ button:hover {
     flex: 1;
     margin: 10px;
     text-align: center;
+}
+
+/* Căn chỉnh phần hướng dẫn chứa hình ảnh */
+#instructions .step {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Căn chỉnh phần văn bản mô tả */
+#instructions .step-text {
+    flex: 1;
+    min-width: 250px;
+}
+
+/* Căn chỉnh hình ảnh */
+#instructions img {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
